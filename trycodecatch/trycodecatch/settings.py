@@ -25,7 +25,7 @@ SECRET_KEY = 'jcqiub-o@tl!-9juc0c^dfc)kzcdp(4a*gn7j)t9j^fr2%yoz_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'dmteamapp',
 )
 
 MIDDLEWARE_CLASSES = (
